@@ -1,0 +1,12 @@
+.subtext {
+    text-align: justify;
+    background-color: #ebebeb;
+    color: #263238;
+    font-size: 1rem;
+    width: 60%;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

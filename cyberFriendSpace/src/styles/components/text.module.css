@@ -1,0 +1,21 @@
+.text {
+    align-items: center;
+    text-align:justify;
+    font-size: 1rem;
+    color: #263238;
+    padding-bottom: 1rem;
+    width: 100%;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+        font-size: 0.8rem;
+    }
+}

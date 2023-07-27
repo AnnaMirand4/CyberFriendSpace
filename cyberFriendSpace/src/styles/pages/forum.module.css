@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #90caf9;
+    margin: 2rem;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.textAreaPost {
+    border-radius: 10px;
+    margin-top: 2rem;
+    
+
+}
+.inputPost {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.formPost {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+.textPost {
+    width: 95%;
+    height: auto;
+    padding: 1rem;
+    background-color: rgb(244, 255, 255);
+    border-radius: 10px;
+    padding-right: 0;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    
+}
+.postTrash {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.formReply {
+    display: flex;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    
+    
+}
+.inputReply {
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    
+}
+
+.reply {
+    display: flex;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    
+}
+.textAreaReply {
+    display: flex;
+    background-color: rgb(153, 227, 250);
+    margin: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 90%;
+    
+}
+
+.replyTrash {
+    border: none;
+    background: none;
+    display: flex;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .inputPost {
+        height: 2.5rem;
+    }
+
+    .textPost {
+        padding: 0.8rem;
+    }
+
+    .inputReply {
+        height: 1.5rem;
+    }
+
+    .textAreaReply {
+        padding: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .inputPost {
+        height: 2rem;
+    }
+
+    .textPost {
+        padding: 0.6rem;
+    }
+
+    .inputReply {
+        height: 1.2rem;
+    }
+
+    .textAreaReply {
+        padding: 0.6rem;
+    }
+}

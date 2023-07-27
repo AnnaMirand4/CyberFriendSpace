@@ -1,0 +1,16 @@
+.subtitle {
+    align-self: flex-start;
+    color: #263238;
+}
+
+@media screen and (max-width: 768px) {
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .subtitle {
+        font-size: 0.9rem;
+    }
+}

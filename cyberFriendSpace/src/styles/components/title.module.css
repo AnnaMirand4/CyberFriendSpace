@@ -1,0 +1,19 @@
+.title {
+    align-self: flex-start;
+    color: #263238;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Estilo para tamanhos de tela pequenos */
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 1.6rem;
+        
+    }
+}

@@ -1,0 +1,32 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.img {
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 1rem;
+    }
+
+    .img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section {
+        padding: 0.5rem;
+    }
+
+    .img {
+        width: 80%;
+    }
+}

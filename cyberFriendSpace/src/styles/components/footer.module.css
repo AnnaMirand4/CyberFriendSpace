@@ -1,0 +1,30 @@
+.footerContainer {
+    background-color: #90caf9;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .footerContent {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footerContent {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .footerContent {
+      font-size: 0.8rem;
+  }
+}

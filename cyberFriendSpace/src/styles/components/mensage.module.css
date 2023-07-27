@@ -1,0 +1,76 @@
+.section {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 75%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0D9FB;
+    background-image: linear-gradient(to bottom, #B0D9FB, #73A2C7);
+    border-radius: 20px;
+    margin-top: 2rem;
+  }
+  
+  .formInput {
+    width: 60%;
+    padding: .6rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+  }
+  
+  .formButton {
+    width: 60%;
+    padding: .6rem 2rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formButton:hover {
+    background-color: #4CA;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .form {
+        width: 90%;
+    }
+
+    .formInput,
+    .formButton {
+        width: 80%;
+    }
+
+    .formButton {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .form {
+      width: 100%;
+      padding: 1rem;
+  }
+
+  .formInput,
+  .formButton {
+      width: 100%;
+  }
+
+  .formButton {
+      font-size: 0.8rem;
+  }
+}
