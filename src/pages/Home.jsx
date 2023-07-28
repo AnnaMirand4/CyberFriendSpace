@@ -5,7 +5,7 @@ import SubText from "../components/SubText"
 import SubTitle from "../components/SubTitle"
 import Text from "../components/Text"
 import Title from "../components/Title"
-import chat from '../assets/chat.svg'
+import chat from '../assets/Chat.svg'
 
 
 const Home = () => {
