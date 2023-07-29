@@ -1,6 +1,6 @@
 
 # CyberFriendSpace
-Esse é um projeto que tem como objetivo criar uma comunidades de acolhimento para vitimas de cyberbullyng.
+Esse é um projeto que tem como objetivo criar uma comunidade de acolhimento para vítimas de cyberbullyng.
 
 <img src='./src/assets/logo.png' width=500 alt='logo com o nome Cyber Friend Space em preto e azul' />
 
@@ -53,7 +53,7 @@ Faça o fork	- clique no botão de forkar
 Faça o clone - use o comando git clone  
 Entre na pasta do projeto - execute o comando cd CyberFriendSpace   
 Instale as dependências com o npm - use o camando npm i  
-Crie as variaveis de ambiente para integrar com Firebase e inclua os valores da sua conta conforme .env.example e lista abaixo  
+Crie as variaveis de ambiente para integrar com Firebase e inclua os valores da sua conta conforme .env.example  
 Rode o projeto	npm run dev  
 
 **Maiores desafios**  
@@ -64,7 +64,7 @@ Rode o projeto	npm run dev
 **Proximas implementações**  
 
 -Tornar o fórum mais robusto e funcional  
--Comunicação com beck-end pra toranar o site realmente usual criando autenticação de usuários.  
+-Comunicação com back-end pra toranar o site realmente usual criando autenticação de usuários.  
 
 **Quem é a Desenvolvedora?**  
 
